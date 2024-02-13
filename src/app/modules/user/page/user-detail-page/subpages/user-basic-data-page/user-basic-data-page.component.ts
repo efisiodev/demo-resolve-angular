@@ -1,4 +1,3 @@
-import { AsyncPipe } from '@angular/common';
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { User } from '@modules/user/domain/user.interface';
@@ -6,7 +5,7 @@ import { User } from '@modules/user/domain/user.interface';
 @Component({
   selector: 'app-user-basic-data-page',
   standalone: true,
-  imports: [AsyncPipe],
+  imports: [],
   templateUrl: './user-basic-data-page.component.html',
   styleUrl: './user-basic-data-page.component.scss'
 })
