@@ -1,0 +1,26 @@
+@if (user$ | async; as user) {
+  <mat-card>
+    <mat-card-content>
+      <div>
+        <strong>Name:</strong> {{ user.name }}
+      </div>
+      <div>
+        <strong>Surname:</strong> {{ user.surname }}
+      </div>
+      <div>
+        <strong>Age:</strong> {{ user.age }}
+      </div>
+      <div>
+        <strong>Address:</strong> {{ user.address }}
+      </div>
+      <div>
+        <strong>Phone:</strong> {{ user.phone }}
+      </div>
+      <div>
+        <strong>Studies:</strong> {{ user.studies }}
+      </div>
+    </mat-card-content>
+  </mat-card>
+}
+
+<router-outlet/>
