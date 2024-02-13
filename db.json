@@ -7,7 +7,10 @@
       "age": 25,
       "address": "Avenida Central 456",
       "phone": "987-654-321",
-      "studies": "Administración de Empresas"
+      "studies": "Administración de Empresas",
+      "permissions": ["read", "write"],
+      "vehicle": "Toyota Corolla",
+      "documents": ["DNI.pdf", "Seguro_de_coche.pdf", "Contrato_de_alquiler.pdf"]
     },
     {
       "id": "a4c19ac2-9a4b-4f90-b7a3-36127b6b12d9",
@@ -16,7 +19,10 @@
       "age": 30,
       "address": "Calle Principal 123",
       "phone": "123-456-789",
-      "studies": "Ingeniería Informática"
+      "studies": "Ingeniería Informática",
+      "permissions": ["read"],
+      "vehicle": "Honda Civic",
+      "documents": ["Pasaporte.pdf", "Curriculum_Vitae.pdf"]
     },
     {
       "id": "bae8fb5f-5f22-4d35-a8c0-3ac42104db63",
@@ -25,7 +31,10 @@
       "age": 35,
       "address": "Plaza Mayor 789",
       "phone": "111-222-333",
-      "studies": "Medicina"
+      "studies": "Medicina",
+      "permissions": ["read", "write"],
+      "vehicle": "Ford Focus",
+      "documents": ["Certificado_medico.pdf", "Titulo_de_Medicina.pdf"]
     },
     {
       "id": "f1a5a5d7-1d3c-4845-9f63-1737c831361c",
@@ -34,7 +43,10 @@
       "age": 28,
       "address": "Calle Secundaria 567",
       "phone": "444-555-666",
-      "studies": "Psicología"
+      "studies": "Psicología",
+      "permissions": ["write"],
+      "vehicle": "Chevrolet Spark",
+      "documents": ["Carnet_de_conducir.pdf"]
     },
     {
       "id": "4cd5fc7f-b8ac-490a-85f1-6e49c3a89155",
@@ -43,7 +55,10 @@
       "age": 40,
       "address": "Carrera Importante 890",
       "phone": "777-888-999",
-      "studies": "Derecho"
+      "studies": "Derecho",
+      "permissions": ["read"],
+      "vehicle": "Volkswagen Golf",
+      "documents": ["Titulo_de_abogado.pdf"]
     },
     {
       "id": "929b29f6-0a49-4a11-bc70-8f7e7937692e",
@@ -52,7 +67,10 @@
       "age": 22,
       "address": "Paseo Serio 234",
       "phone": "000-999-888",
-      "studies": "Marketing"
+      "studies": "Marketing",
+      "permissions": ["write"],
+      "vehicle": "Kia Rio",
+      "documents": ["Licencia_de_Marketing.pdf", "Plan_de_Marketing.pdf"]
     },
     {
       "id": "631cde80-438a-4e06-8c9b-8338b6d9a8db",
@@ -61,7 +79,10 @@
       "age": 32,
       "address": "Avenida Principal 678",
       "phone": "123-987-456",
-      "studies": "Ingeniería Civil"
+      "studies": "Ingeniería Civil",
+      "permissions": ["read", "write"],
+      "vehicle": "Mercedes-Benz A-Class",
+      "documents": ["Licencia_de_Obra.pdf", "Proyecto_de_Ingeniería.pdf"]
     },
     {
       "id": "3b034dd2-bba5-4c16-abe8-50613f84e162",
@@ -70,7 +91,10 @@
       "age": 29,
       "address": "Calle Mayor 345",
       "phone": "654-789-123",
-      "studies": "Arquitectura"
+      "studies": "Arquitectura",
+      "permissions": ["read"],
+      "vehicle": "Audi A3",
+      "documents": ["Titulo_de_Arquitectura.pdf"]
     },
     {
       "id": "287b9d90-758b-4744-b102-9fc92999d016",
@@ -79,7 +103,10 @@
       "age": 27,
       "address": "Plaza Central 123",
       "phone": "987-654-321",
-      "studies": "Economía"
+      "studies": "Economía",
+      "permissions": ["write"],
+      "vehicle": "BMW 3 Series",
+      "documents": ["Informe_Económico.pdf", "Balance_de_Cuentas.pdf"]
     },
     {
       "id": "31ff8706-149e-47a2-b7bc-78018fb452ad",
@@ -88,7 +115,10 @@
       "age": 33,
       "address": "Avenida Mayor 456",
       "phone": "321-654-987",
-      "studies": "Ciencias de la Comunicación"
+      "studies": "Ciencias de la Comunicación",
+      "permissions": ["read", "write"],
+      "vehicle": "Tesla Model 3",
+      "documents": ["Tesis_de_Comunicación.pdf"]
     }
   ]
 }

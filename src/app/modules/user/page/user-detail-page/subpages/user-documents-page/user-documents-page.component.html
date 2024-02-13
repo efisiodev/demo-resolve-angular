@@ -1,1 +1,5 @@
-<p>user-documents-page works!</p>
+@if (user) {
+    @for (document of user.documents; track document) {
+        <p>{{ document }}</p>
+    }
+}

@@ -6,4 +6,7 @@ export interface User {
     address: string;
     phone: string;
     studies: string;
+    permissions: string[];
+    vehicle: string;
+    documents: string[];
 }

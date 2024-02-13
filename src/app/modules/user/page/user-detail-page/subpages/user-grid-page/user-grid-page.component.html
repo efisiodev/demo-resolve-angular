@@ -1,10 +1,13 @@
-<mat-card>
-    <mat-card-content>
-    <a [routerLink]="['/user', id, 'basic-data']">Datos básicos</a>
-    <a [routerLink]="['/user', id, 'addresses']">Direcciones</a>
-    <a [routerLink]="['/user', id, 'documents']">Documentos</a>
-    <a [routerLink]="['/user', id, 'permissions']">Permisos</a>
-    <a [routerLink]="['/user', id, 'studies']">Estudios</a>
-    <a [routerLink]="['/user', id, 'vehicles']">Vehículos</a>
-    </mat-card-content>
-</mat-card>
+@if (user) {
+    <mat-card>
+        <mat-card-content>
+        <a [routerLink]="['/user', user.id, 'basic-data']">Datos básicos</a>
+        <a [routerLink]="['/user', user.id, 'addresses']">Direcciones</a>
+        <a [routerLink]="['/user', user.id, 'documents']">Documentos</a>
+        <a [routerLink]="['/user', user.id, 'permissions']">Permisos</a>
+        <a [routerLink]="['/user', user.id, 'studies']">Estudios</a>
+        <a [routerLink]="['/user', user.id, 'vehicles']">Vehículos</a>
+        </mat-card-content>
+    </mat-card>
+    
+}
