@@ -1,6 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { User } from '@modules/user/domain/user.interface';
+import { userRouteSnapshot } from '@modules/user/infrastructure/user-find.route-snapshot';
 
 @Component({
   selector: 'app-user-permissions-page',
@@ -9,13 +10,8 @@ import { User } from '@modules/user/domain/user.interface';
   templateUrl: './user-permissions-page.component.html',
   styleUrl: './user-permissions-page.component.scss'
 })
-export class UserPermissionsPageComponent  implements OnInit {
+export class UserPermissionsPageComponent {
 
-  private readonly activatedRoute = inject(ActivatedRoute)
-
-  public user!: User
-  ngOnInit(): void {
-    this.user = (<{user: User}>this.activatedRoute.snapshot.data).user
-  }
+  public user: User = userRouteSnapshot()
 
 }

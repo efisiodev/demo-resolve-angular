@@ -1,6 +1,6 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
 import { User } from '@modules/user/domain/user.interface';
+import { userRouteSnapshot } from '@modules/user/infrastructure/user-find.route-snapshot';
 
 @Component({
   selector: 'app-user-studies-page',
@@ -9,13 +9,8 @@ import { User } from '@modules/user/domain/user.interface';
   templateUrl: './user-studies-page.component.html',
   styleUrl: './user-studies-page.component.scss'
 })
-export class UserStudiesPageComponent implements OnInit {
+export class UserStudiesPageComponent {
 
-  private readonly activatedRoute = inject(ActivatedRoute)
+  public user: User = userRouteSnapshot()
 
-  public user!: User
-
-  ngOnInit(): void {
-    this.user = (<{user: User}>this.activatedRoute.snapshot.data).user
-  }
 }
