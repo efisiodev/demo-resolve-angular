@@ -1,6 +1,6 @@
 # OptimizedResolve
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+To start the project you first need to do "npm run json-server" to start the data mock server. Then in another terminal you can do "npm run start" to start the project
 
 ## Development server
 
